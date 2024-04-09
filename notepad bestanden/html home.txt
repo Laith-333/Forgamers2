@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>
+        <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/logov2.jpg" alt="" class="logo-img" width="125px">
+    </header>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="" alt="" width="125px"> 
+        </div>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="producten.html">PRODUCTEN</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            <li><a href="shoppingcart.html">WINKELMAND</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-bar-container">
+        <form action="/search" method="GET" class="search-form">
+            <input type="text" name="query" placeholder="zoek product">
+            <button type="submit">Zoek</button>
+        </form>
+    </div>
+
+    <main class="content-area">
+        
+        <section class="tiles-container">
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/vis.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    vis
+                </div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/maaltijden.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    maaltijden
+                </div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/rijst.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    rijst
+                </div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/saus.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    saus
+                </div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/soep.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    soep
+                </div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/groente.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    groente
+                </div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    pasta
+                </div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/brood.WEBP" alt="">
+                <div class="overlay">
+                    <p class="overlay-text">vis</p>
+                </div>
+                <div class="description">
+                    brood
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

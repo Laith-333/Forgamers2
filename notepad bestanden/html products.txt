@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="product-page">
+    <header>
+        <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/logov2.jpg" alt="" class="logo-img" width="125px">
+    </header>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="" alt="" width="125px">
+        </div>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="producten.html">PRODUCTEN</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            <li><a href="shoppingcart.html">WINKELMAND</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-bar-container">
+        <form action="/search" method="GET" class="search-form">
+            <input type="text" name="query" placeholder="zoek product">
+            <button type="submit">Zoek</button>
+        </form>
+    </div>
+
+    <main class="content-area">
+        <aside class="filter-sidebar">
+            <select name="categories" id="categories">
+                <option value="all">Kies categorie</option>
+
+            </select>
+
+            <div class="filter-group">
+                <h3>Nutri-Score</h3>
+                <label><input type="checkbox" name="nutri_score" value="A"> Score A</label>
+                <label><input type="checkbox" name="nutri_score" value="B"> Score B</label>
+                <label><input type="checkbox" name="nutri_score" value="C"> Score C</label>
+                <button>Toon meer...</button>
+            </div>
+
+            <div class="filter-group">
+                <h3>allergenen</h3>
+                <label><input type="checkbox" name="nutri_score" value="A"> noten</label>
+                <label><input type="checkbox" name="nutri_score" value="B"> gluten</label>
+                <label><input type="checkbox" name="nutri_score" value="C"> zuivel</label>
+                <button>Toon meer...</button>
+            </div>
+
+            <div class="filter-group">
+                <h3>dieet</h3>
+                <label><input type="checkbox" name="nutri_score" value="A"> laag suiker</label>
+                <label><input type="checkbox" name="nutri_score" value="B"> hoge protein</label>
+                <label><input type="checkbox" name="nutri_score" value="C"> vegetarisch</label>
+                <label><input type="checkbox" name="nutri_score" value="C"> vegan</label>
+                <button>Toon meer...</button>
+            </div>
+
+        </aside>
+        
+        <section class="tiles-container">
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta1.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">€Pasta Bolognese €5,99</div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta2.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">Pasta Bolognese €5,99</div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta3.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">Pasta Bolognese €5,99</div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta4.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">Pasta Bolognese €5,99</div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta5.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">Pasta Bolognese €5,99</div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta6.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">Pasta Carbonera €5,99</div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta7.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">Pasta Pesto €5,99</div>
+            </div>
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <img src="C:/Users/Nadim/OneDrive/Desktop/ict/media/website/foto's/pasta8.WEBP" alt="">
+                <div class="description">
+                    <p>Omschrijving:</p>
+                    <p>Inhoud en gewicht: 550 Gram</p>
+                    <p>Energie: 195 kcal</p>
+                    <p>Kenmerken: vegetarisch</p>
+                </div>
+                <div class="price-tag">Pasta Pesto €5,99</div>
+            </div>
+            <!-- Add more tiles as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+</body>
+</html>

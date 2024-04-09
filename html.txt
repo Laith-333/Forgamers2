@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Nadims winkel</h1>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="" alt="" width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="producten.html">Producten</a></li>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="shoppingcart.html">Winkelmandje</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        
+
+
+        <form action="/search" method="GET" class="search-form">
+            <input type="text" name="query" placeholder="zoek product">
+            <button type="submit">Zoek</button>
+        </form>
+
+        <div class="tiles-container">
+
+            <div class="tile" onclick="location.href='producten.html';">
+                <h2>Vis</h2>
+                <div class="overlay">
+                    <p class="overlay-text">lekker vis</p>
+                </div>
+            </div>
+
+            <div class="tile2" onclick="location.href='producten.html';">
+                <h2>brood</h2>
+                <div class="overlay">
+                    <p class="overlay-text">lekker brood</p>
+                </div>
+            </div>
+
+            <div class="tile3" onclick="location.href='producten.html';">
+                <h2>maaltijden</h2>
+                <div class="overlay">
+                    <p class="overlay-text">lekkere maaltijden</p>
+                </div>
+            </div>
+
+            <div class="tile4" onclick="location.href='producten.html';">
+                <h2>maaltijden</h2>
+                <div class="overlay">
+                    <p class="overlay-text">lekkere maaltijden</p>
+                </div>
+            </div>
+
+            <div class="tile5" onclick="location.href='producten.html';">
+                <h2>maaltijden</h2>
+                <div class="overlay">
+                    <p class="overlay-text">lekkere maaltijden</p>
+                </div>
+            </div>
+
+            <div class="tile6" onclick="location.href='producten.html';">
+                <h2>maaltijden</h2>
+                <div class="overlay">
+                    <p class="overlay-text">lekkere maaltijden</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
